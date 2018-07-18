@@ -247,7 +247,7 @@ public class ForecastFragment extends Fragment {
                         .appendQueryParameter(FORMAT, format)
                         .appendQueryParameter(UNITS, units)
                         .appendQueryParameter(DAYS, Integer.toString(numberOfDays))
-                        .appendQueryParameter(Query_app_id, app_id)
+                        .appendQueryParameter(Query_app_id,app_id)
                         .build();
 
                 // Construct the URL for the OpenWeatherMap query
