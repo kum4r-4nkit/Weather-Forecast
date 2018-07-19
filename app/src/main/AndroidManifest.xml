@@ -36,7 +36,17 @@
         </activity>
         <provider
             android:authorities="com.example.ankit.weatherforecast"
-            android:name=".data.WeatherProvider" />
+            android:name=".data.WeatherProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="LICENSE_TO_KILL"
+            />
     </application>
+
+    <permission
+        android:name="LICENSE_TO_KILL"
+        android:protectionLevel="dangerous"
+        android:label="Licenced to Kill">
+    </permission>
 
 </manifest>
