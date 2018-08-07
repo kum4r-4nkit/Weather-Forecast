@@ -190,7 +190,7 @@ public class Utility {
         } else if (weatherId >= 802 && weatherId <= 804) {
             return R.drawable.ic_cloudy;
         }
-        return -1;
+        return R.drawable.ic_notifications_black_24dp;
     }
 
     /**
@@ -225,7 +225,7 @@ public class Utility {
         } else if (weatherId >= 802 && weatherId <= 804) {
             return R.drawable.art_clouds;
         }
-        return -1;
+        return R.drawable.ic_notifications_black_24dp;
     }
 
 }
